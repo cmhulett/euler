@@ -1,6 +1,8 @@
 (ns euler.core)
 
 (defn foo
-  "I don't do a whole lot."
+  "docstring"
   [x]
-  (println x "Hello, World!"))
+  (println x "hi"))
+
+(load "e1")
