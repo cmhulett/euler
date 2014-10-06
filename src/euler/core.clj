@@ -6,3 +6,4 @@
   (println x "hi"))
 
 (load "e1")
+(load "e2")
