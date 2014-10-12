@@ -1,13 +1,11 @@
 # euler
 
-A Clojure library designed to ... well, that part is up to you.
+Working through project euler problems using clojure.
 
 ## Usage
 
-FIXME
+Read a bit if you're getting stuck or want to try a different approach.
 
 ## License
 
-Copyright © 2014 FIXME
-
-Distributed under the Eclipse Public License, the same as Clojure.
+Clojure is covered by EPL 1.0, anything not covered by existing licenses or explicitely stated otherwise in this repo is public domain.

@@ -1,3 +1,3 @@
 # Introduction to euler
 
-TODO: write [great documentation](http://jacobian.org/writing/great-documentation/what-to-write/)
+Basically just going through project euler problems. Working in a common namespace (euler.core) and adding problems as separate files into the namespace in core.clj.
