@@ -30,15 +30,18 @@
                 (repeat min-value)
                 (range min-value limit))))
 
-;Second attempt, generates a sequence of all of the palindromes for the values and returns the max. Returns correct answer, 906609.
+;Second attempt, generates a sequence of all of the palindromes
+;for the values and returns the max. Returns correct answer, 906609.
 (defn find-largest-palindrome-product
-  "Returns the largest palindrome for products from a minimum value up to a limit."
+  "Returns the largest palindrome for products from a minimum
+value up to a limit."
   [min-value limit]
   (apply max
          (filter palindrome?
                  (distinct (generate-products min-value limit)))))
 
 (defn largest-palindrome-product
-  "Finds the largest palindrome of the product of two numbers with the number of digits given."
+  "Finds the largest palindrome of the product of two numbers
+with the number of digits given."
   [digits]
   )
