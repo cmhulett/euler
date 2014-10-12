@@ -8,7 +8,7 @@
 (defn mult?
   "Returns true if input is a multiple of divisor"
   [input divisor]
-  (= 0 (mod input divisor)))
+  (zero? (mod input divisor)))
 
 (defn mult3or5?
   "Returns true if input is a multiple of 3 or 5."
