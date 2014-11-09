@@ -5,3 +5,4 @@
 (load "e3")
 (load "e4")
 (load "e5")
+(load "nonrepeat")
