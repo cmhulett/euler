@@ -1,6 +1,6 @@
 (in-ns 'euler.core)
 
-;O(n^2)
+;First attempt, O(n^2).
 (defn first-non-repeat
   "Find first non-repeating character in a string"
   [input]
