@@ -1,6 +1,6 @@
 # euler
 
-Working through project euler problems using clojure.
+Working through project euler problems using clojure. May include some other things I just wanted to try out in clojure.
 
 ## Usage
 
